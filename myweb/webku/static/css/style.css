@@ -1,0 +1,12 @@
+.name-regius {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #1e1e1e;
+    line-height: 1.2;
+  }
+
+.side-img {
+  transform: translateY(80px);
+}

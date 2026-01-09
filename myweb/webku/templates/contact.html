@@ -1,0 +1,45 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {% load static %}  
+  <div class="col">
+    <div class="card h-100">
+      <img src="{% static 'images/email.jpeg' %}" class="card-img-top" alt="..." width="30px" height="350px">
+      <div class="card-body">
+        <h5 class="card-title">Email:</h5>
+        <p class="card-text">aliestia32@gmail.com</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Email Saya</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="{% static 'images/ig.jpeg' %}" class="card-img-top" alt="..." width="50px" height="350px">
+      <div class="card-body">
+        <h5 class="card-title">Instagram:</h5>
+        <p class="card-text">@labibah_31</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Instagram Saya</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="{% static 'images/wa.jpeg' %}" class="card-img-top" alt="..." width="40px" height="350px">
+      <div class="card-body">
+        <h5 class="card-title">WhatsApp</h5>
+        <p class="card-text">+62 85920508393</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">WhatApp saya</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

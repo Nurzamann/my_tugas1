@@ -1,0 +1,61 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+<section class="container my-5">
+  <div class="text-center mb-5">
+    <p class="text-uppercase text-muted" style="letter-spacing:2px;">
+      Gallery
+    </p>
+    <h2 class="fw-light">Moments & Memories</h2>
+  </div>
+
+  <div class="row g-4 align-items-center">
+
+    <!--Gambar 1--> 
+    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+      <img src="{% static 'images/4.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 1">
+    </div>
+
+    <!--Gambar 2-->
+    <div class="col-md-4 col-sm-6">
+      <img src="{% static 'images/5.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 2">
+    </div>
+
+    <!--Gambar 3-->
+    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+      <img src="{% static 'images/6.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 3">
+    </div>
+
+    <!--Gambar 4-->
+    <div class="col-md-4 col-sm-6">
+      <img src="{% static 'images/7.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 4">
+    </div>
+
+    <!--Gambar 5-->
+    <div class="col-md-4 col-sm-6">
+      <img src="{% static 'images/8.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 5">
+    </div>
+
+    <!--Gambar 6-->
+    <div class="col-md-4 col-sm-6">
+      <img src="{% static 'images/9.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 6">
+    </div>
+
+    <!--Gambar 7-->
+    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+      <img src="{% static 'images/10.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 7">
+    </div>
+
+    <!--Gambar 8-->
+    <div class="col-md-4 col-sm-6">
+      <img src="{% static 'images/11.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 8">
+    </div>
+
+    <!--Gambar 9-->
+    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+      <img src="{% static 'images/12.jpeg' %}" class="img-fluid rounded shadow-sm" alt="gallery 9">
+    </div>
+
+  </div> </section>
+{% endblock %}
